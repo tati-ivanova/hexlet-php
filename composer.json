@@ -1,0 +1,22 @@
+{
+           "name": "charrrolastra/composer",
+       "autoload": {
+            "psr-4": {
+                 "Charrrolastra\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+	        {
+		                "name": "Tatiana",
+			            "description": "my first project",
+			                "authors": "Tatiana Ivanova",
+			                "email": "charrrolastra@yandex.ru"
+			        }
+		    ],
+        "require": {
+      "tightenco/collect": "^8.83"},
+      "repositories": [
+            {   "type": "composer"
+	        }
+        ]
+  }
